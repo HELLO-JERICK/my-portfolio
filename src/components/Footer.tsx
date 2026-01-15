@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-medium text-white mb-4">Jerick Parallag</h3>
             <p className="text-gray-400 leading-relaxed">
-              Full Stack Web Developer passionate about creating beautiful and functional web experiences.
+              Web Developer passionate about creating beautiful and functional web experiences.
             </p>
           </div>
           
