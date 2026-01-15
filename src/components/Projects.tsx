@@ -6,15 +6,16 @@ export function Projects() {
     {
       title: 'Trabacco: An Application for Tracking and Monitoring Tobacco Production with Geo-Mapping',
       description: 'A web and mobile application designed to track and monitor tobacco production with integrated geo-mapping features. The system allows users to record production data, visualize farm locations on map, and generate reports for better agricultural management and monitoring.',
-      image: '/assets/project/project1.png',
+      image: `${import.meta.env.BASE_URL}assets/project/project1.png`,
       tags: ['Laravel', 'React JS', 'MariaDB MySQL', 'Tailwind CSS'],
       github: 'https://github.com',
       demo: 'https://example.com',
     },
+    
     {
       title: 'QR-Based Attendance System',
       description: 'A digital attendance management system that uses QR code technology for quick and efficient attendance tracking. Students  can scan QR codes to mark their attendance, and administrators can view real-time attendance records and generate reports.',
-      image: '/assets/project/project2.png',
+      image: `${import.meta.env.BASE_URL}assets/project/project2.png`,
       tags: ['Laravel', 'MariaDB MySQL', 'Tailwind CSS'],
       github: 'https://github.com',
       demo: 'https://example.com',

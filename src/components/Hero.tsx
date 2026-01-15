@@ -12,7 +12,7 @@ export function Hero() {
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="mb-8">
           <img 
-            src="/assets/profile/profile.jpg"
+            src={`${import.meta.env.BASE_URL}assets/profile/profile.jpg`}
             alt="Profile Picture"
             className="w-48 h-48 rounded-full object-cover mx-auto shadow-xl border-4 border-blue-600"
           />
